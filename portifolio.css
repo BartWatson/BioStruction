@@ -1,0 +1,110 @@
+*{
+    font-family: "AudioWide", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Icone {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+body {
+    height: 800vh;
+    margin: 0;
+    padding: 0;
+}
+ul li.Ativo .txt{
+    color: rgb(112, 201, 124);
+}
+
+
+.icon-text {
+    display: flex;
+    align-items: center; /* Isso centraliza verticalmente o conteúdo do span */
+    font-size: 30px; /* Tamanho do texto */
+    margin-top:15px;
+    margin-left: 220px;
+    color: rgb(107, 182, 113);
+}
+
+/* Opcional: Estilize a imagem */
+.icon-text img {
+    width: 40px; /* Largura da imagem */
+    height: auto; /* Altura automática, mantendo a proporção original */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 799vh;
+}
+
+.types ul li a .txt:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: #805f39;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 10px;
+}
+
+.Project{
+    text-align:center;
+    margin-top: 150px;
+    font-family:"Teko",Arial ;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.Stars{
+    text-align: center;
+    color: rgb(241, 212, 83);
+    margin-top: 0px;
+}
+
+.types .tipos {
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    margin-left:175px;
+    margin-top: 100px;
+}
+.gb {
+    width: 236px;
+    height: 236px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.gb1{
+    width: 236px;
+    height: 236px;
+    margin-left: 275px;
+    margin-top: 100px;
+}
